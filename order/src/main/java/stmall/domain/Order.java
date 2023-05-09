@@ -33,8 +33,8 @@ public class Order {
         orderPlaced.publishAfterCommit();
     }
 
-    @PrePersist
-    public void onPrePersist() {
+    @PreRemove
+    public void onPreRemove() {
         OrderCanceled orderCanceled = new OrderCanceled(this);
         orderCanceled.publishAfterCommit();
     }
