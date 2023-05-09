@@ -13,8 +13,4 @@ public class ProductSearch {
     @Id
     //@GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
-
-    private String id;
-    private String customerId;
-    private String productId;
 }

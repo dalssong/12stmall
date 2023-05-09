@@ -22,9 +22,6 @@
         data: () => ({
             headers: [
                 { text: "id", value: "id" },
-                { text: "id", value: "id" },
-                { text: "customerId", value: "customerId" },
-                { text: "productId", value: "productId" },
             ],
             productSearch : [],
         }),
